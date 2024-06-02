@@ -49,6 +49,7 @@ router.get('/:id', async (req, res) => {
           },
           {
             model: Tag,
+            attributes: ['tag_name','id'],
           }
         ]
       })
@@ -72,10 +73,21 @@ router.post('/', (req, res) => {
       tagIds: [1, 2, 3, 4]
     }
   */
+
+//   {
+//     product_name: 'Product_test01',
+//   price: '20.99',
+//   stock: '34',
+//   category_id: '8',
+//   tagIds: '11'
+// }
+
   Product.create(req.body)
     .then((product) => {
       // if there's product tags, we need to create pairings to bulk create in the ProductTag model
       if (req.body.tagIds.length) {
+
+        console.log("req.body", req.body);
         const productTagIdArr = req.body.tagIds.map((tag_id) => {
           return {
             product_id: product.id,
@@ -138,6 +150,7 @@ router.put('/:id', (req, res) => {
       res.status(400).json(err);
     });
 });
+
 
 router.delete('/:id', async (req, res) => {
   // delete one product by its `id` value
