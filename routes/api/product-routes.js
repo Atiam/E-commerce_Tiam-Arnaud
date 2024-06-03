@@ -74,6 +74,9 @@ router.post('/', (req, res) => {
     }
   */
 
+
+    
+
 //   {
 //     product_name: 'Product_test01',
 //   price: '20.99',
@@ -87,13 +90,16 @@ router.post('/', (req, res) => {
       // if there's product tags, we need to create pairings to bulk create in the ProductTag model
       if (req.body.tagIds.length) {
 
-        console.log("req.body", req.body);
-        const productTagIdArr = req.body.tagIds.map((tag_id) => {
+        console.log("reqBodyTagIds", req.body.tagIds.split(`,`));
+       const tagIdAray = req.body.tagIds.split(`,`);
+        const productTagIdArr = tagIdAray.map((tag_id) => {
           return {
             product_id: product.id,
             tag_id,
           };
         });
+
+        console.log("productTagIdArr", productTagIdArr);
         return ProductTag.bulkCreate(productTagIdArr);
       }
       // if no product tags, just respond
