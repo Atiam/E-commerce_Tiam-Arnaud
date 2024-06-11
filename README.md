@@ -17,7 +17,7 @@ according to the United Nations Conference on Trade and Development.
 AS A manager at an internet retail company
 You WANT a back end for my e-commerce website that uses the latest technologies,
 SO THAT your company can compete with other e-commerce companies.
-Video Url link: https://1drv.ms/v/s!Al52s9YCFUObkVKk5UGC8rR7LR4h?e=udZhxm
+
 
   ## License
 This application is licensed under the MIT license.
@@ -32,6 +32,7 @@ For any correction, please find the source code on Atiam Github. For any questio
 
 
 ## Illustration
+Video Url link: https://1drv.ms/v/s!Al52s9YCFUObkVKk5UGC8rR7LR4h?e=udZhxm
 
 [![Watch the video](https://github.com/Atiam/E-commerce_Tiam-Arnaud/blob/main/assets/images_get.png)](https://1drv.ms/v/s!Al52s9YCFUObkVKk5UGC8rR7LR4h?e=udZhxm)
 
