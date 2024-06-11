@@ -34,7 +34,20 @@ For any correction, please find the source code on Atiam Github. For any questio
 ## Illustration
 Video Url link: https://1drv.ms/v/s!Al52s9YCFUObkVKk5UGC8rR7LR4h?e=udZhxm
 
-[![Watch the video](https://github.com/Atiam/E-commerce_Tiam-Arnaud/blob/main/assets/images_get.png)](https://1drv.ms/v/s!Al52s9YCFUObkVKk5UGC8rR7LR4h?e=udZhxm)
+[![Watch the video](https://github.com/Atiam/E-commerce_Tiam-Arnaud/blob/main/assets/video_get-data.png)](https://1drv.ms/v/s!Al52s9YCFUObkVKk5UGC8rR7LR4h?e=udZhxm)
+
+![get_data](https://github.com/Atiam/E-commerce_Tiam-Arnaud/blob/main/assets/images_get.png)
+
+
+![post_data](https://github.com/Atiam/E-commerce_Tiam-Arnaud/blob/main/assets/post_data.png)
+
+![put_data](https://github.com/Atiam/E-commerce_Tiam-Arnaud/blob/main/assets/put_data.png)
+
+
+![Delete_data](https://github.com/Atiam/E-commerce_Tiam-Arnaud/blob/main/assets/delete_data.png)
+
+
+
 
 
 
